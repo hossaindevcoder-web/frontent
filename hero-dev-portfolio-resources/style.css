@@ -1,0 +1,269 @@
+*{
+       margin: none;
+    padding: none;
+}
+
+.fronts detels {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.text-center{
+    text-align: center;
+    margin:50px 113px ;
+
+}
+
+
+ 
+
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px ;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor:pointer ;
+    text-align: center;
+}
+.section-header{
+     max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+header{
+    
+background-color:#FFF8F3;
+background: url(images/developer.png),url(images/header_bg.png);
+background-position: 23px 38px,bottom right;
+background-position: 23px 38px ,bottom right ;
+background-repeat: no-repeat;
+
+}
+.logo h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+.color{
+    color:#FD6E0A;
+}
+nav{
+    width:71%;
+    max-width: 1140px;
+    /* border: 4px solid #FFF8F3; */
+    display: flex;
+    justify-content: space-between;
+   margin: 0px auto;
+  align-items: center;
+    
+}
+nav .manu {
+    display: flex;
+   list-style: none;
+   gap: 51px;
+   
+   align-items: center;
+
+}
+nav .manu a{
+    color:#474747 ;
+    text-decoration: none;
+   
+}
+.baner{
+    /* border: 4px solid black; */
+    margin:47px 38px  0px 230px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+     
+    
+}
+.contenar{
+     max-width: 585px;
+}
+
+.contenar h2{
+   
+    color:#474747 ;
+    font-size: 45px;
+    margin-top: 5px;
+    
+}
+.contenar h1{
+    color: #181818;
+    font-size: 85px;
+    font-width: 600px;
+    margin-bottom: 20px;
+    width: 585px;
+}
+.contenar p{
+    color: #474747;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 3ppx;
+
+}
+.banar image{
+  max-width: 584px;
+  vertical-align: middle;
+}
+.about{
+    padding: 130px;
+}
+.about .about-centers{
+    width:71%;
+    max-width: 1140px;
+    margin: 0% auto;
+    text-align: center;
+    background-color:#FFF8F3;
+    padding: 131px 156px;
+}
+.section-header h2{
+    font-size:35px ;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-header p{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.info-card{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px ;
+    
+}
+.info-card p{
+color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+}
+.info-card h4{
+    font-size: 20px;
+    
+}
+#skill{
+    padding: 130px;
+}
+#skill .skill-contenar{
+    width: 71%;
+    max-width: 11400px;
+    margin: 0px auto;
+    
+}
+#skill .skill-contenar .skill-box{
+    display: flex;
+    gap: 24px;
+}
+.skill-box .skill-card{
+    padding: 30px;
+    /* border: 2px solid black; */
+    box-shadow: 0 6px 50px 0 #00000010;
+     max-width: 267px;
+      margin: 0 auto;
+      margin-right: 24px;
+       
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-card h3{
+    color: #181818;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.skill-card p{
+
+    color:#757575;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+#resume{
+    padding: 130px;
+    
+}
+#resume .resume-contenar{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-contenar .education h2{
+    font-size: 30px;
+    color: #474747;
+    max-width: 203;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width:511px;
+    margin-right: 47px;
+}
+.resume-card   .card-title{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:#757575
+}
+.resume-card .card-text{
+    line-height: 28px;
+    font-size: 20px;
+     font-weight: 600;
+    margin-bottom: 20px;
+    color:#757575
+}
+.resume-contenar hr{
+    margin: 30px 0;
+}
+footer{
+    margin-top:130px ;
+    background-color:#FFF8F3;
+    padding: 130px;
+}
+.footer-contenar{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+.footer-contenar .social {
+    max-width: 545px;
+}
+
+.footer-contenar .social h2{
+    font-size: 35px;
+    margin-bottom: 21px;
+    color:#181818;
+}
+.footer-contenar .social p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color:#474747;
+    line-height: 28px;
+}
+.footer-contenar  .icon a{
+    margin-right: 24px;
+}
+.footer-contenar .form [type="text"],
+.footer-contenar .form textarea{
+  width: 444px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
+}
